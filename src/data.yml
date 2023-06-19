@@ -1,0 +1,145 @@
+projects:
+  - id: covid
+    title: COVID Assessment and Registration System
+    customer: Rose City Gymnastics
+    description: >-
+      <p>During the COVID pandemic, Rose City Gymnastics was required to keep
+      track and record of everyone who entered their facility (athletes,
+      coaches, volunteers). Additionally, everyone entering the building was
+      required to complete a daily attestation that they were not showing any
+      COVID symptoms, nor that they were in contact with anyone who tested
+      positive for COVID.</p> <p>Each morning, the system would email anyone who
+      was scheduled to enter the facility with a unique link to their daily
+      attestation form. Once the form is completed attesting that the person
+      isn't showing any symptoms (ex: body temperature) and that they were not
+      in contact with a known COVID case, they would be shown a notification
+      that they were allowed to enter the facility on that day at their
+      specified time. Alternatively, if they had symptoms, or contact, they
+      would be notified to stay out of the facility.</p><p>Rose City Gymnastics
+      staff had an easy-to-use Admin UI which would allow them to set training
+      schedules for all of the athletes, coaches and volunteers (in order to
+      comply with maximum facility occupancy regulations), as well as view
+      reports for a particular day and time, in order to know who is allowed to
+      enter the facility.</p>
+    images:
+      - ./covid-app-1.png
+      - ./covid-app-2.png
+      - ./covid-app-3.png
+      - ./covid-app-4.png
+    technologies:
+      - React
+      - MaterialUI
+      - Bootstrap
+      - REST API
+      - CSS/SASS
+  - id: canterbury
+    title: Student Information and E-Commerce System
+    customer: Canterbury College
+    description: >-
+      <p>Canterbury College is a non-profit corporation that provides education
+      and residence services for students. In addition, Canterbury College is
+      also home to Canterbury ElderCollege, a program for students over the age
+      of 55, designed to provide learning opportunities for older adults. This
+      was a multi-year project with a number system add-ons, improvements, as
+      well as a replatform due to a back-end end-of-life.</p><br /><h3
+      class=text-white>ElderCollege Student Information System</h3><p>The
+      ElderCollege Student Information System was the initial engagement. The
+      system allowed for ElderCollege Students to easily register for accounts,
+      register for available courses, and pay for them directly online using the
+      e-commerce system (powered by GlobalPayments). The ElderCollege Admin UI
+      was initially built using JQuery, and later refactored to use React as a
+      single-page application (SPA). The Admin UI allowed for Canterbury College
+      staff to manage course offerings (including pre-requisite and
+      anti-requisite courses), course fees, student records and transcripts, as
+      well as promotional pricing. Courses were offered on 2 campuses and are
+      available in-person or online.</p><br /><h3 class="text-white">Canterbury
+      College Residence</h3><p>Canterbury College offers a family residence for
+      married students and students with children. Canterbury College offers two
+      different type of accommodation: shared accommodation in 12 hourses
+      featuring furnished single rooms, as well as 3 apartment buildings with a
+      total of 76 apartments. The Residence Registration system allowed students
+      to reserve their rooms or apartments on a monthly or per semester basis
+      (depending on accommodation type) and pay for their rent online. The Admin
+      UI allowed Canterbury College staff to easily manage and configure their
+      settings for all buildings, rooms, prices, incidental fees, and payment
+      records in a self-service manner.</p><br /><h3
+      class="text-white">Canterbury College Parking</h3><p>Canterbury College
+      also offers on-premise parking permits for their residents, as well as
+      University of Windsor faculty and Staff. The Parking management system
+      allowed for eligible campus community members to purchase their parking
+      spots online. The Admin UI allowed Canterbury College staff to manage
+      their lots, occupancy, and issue physical parking passes to their
+      customers.</p><br /><h3 class="text-white">Special Events and
+      Donations</h3><p>Canterbury College hosts a number of fundraising events
+      through the year, some are hosted by special guests, while others are
+      simply gala type events without a particular agenda. Additionally,
+      Canterbury College wanted to give their patrons the ability to donate
+      funds directly to the College online. The Special Events and Donations
+      Admin UI allowed for staff to easily manage the various events, including
+      capacity as well as tax receipts (where applicable) for donors.</p><br />
+    images:
+      - ./canterbury-app-1.png
+      - ./canterbury-app-2.png
+      - ./canterbury-app-3.png
+      - ./canterbury-app-4.png
+      - ./canterbury-app-5.png
+      - ./canterbury-app-6.png
+    technologies:
+      - React
+      - Javascript
+      - Bootstrap
+      - REST API
+      - CSS
+educationlist:
+  - id: university
+    dates: 2000 - 2004
+    degree: Bachelor of Computer Science
+    name: University of Windsor
+    location: 'Windsor, ON'
+  - id: brainstation
+    dates: 2017 - 2018
+    degree: Front-End/Web Development Program
+    name: BrainStation
+    location: 'Toronto, ON'
+certifications:
+  - id: cspo
+    certificate: Certified Scrum Product Owner
+    name: Scrum Alliance
+    location: 'Westminster, CO'
+  - id: csm
+    certificate: Certified Scrum Master
+    name: Scrum Alliance
+    location: 'Westminster, CO'
+  - id: safe
+    certificate: Certified SAFe Product Owner/Product Manager
+    name: Scaled Agile
+    location: 'Boulder, CO'
+  - id: itil
+    certificate: ITIL Version 3
+    name: Loyalist Certification Services
+    location: 'Belleville, ON'
+technology_bg_colours:
+  React: bg-noelleteal-200 text-noelleteal-800 text-xs font-medium mr-2 px-2.5 py-0.5
+    rounded dark:bg-noelleteal-800 dark:text-noelleteal-300
+  Javascript: bg-noellegray-100 text-noellegray-800 text-xs font-medium mr-2 px-2.5 py-0.5
+    rounded dark:bg-gray-700 dark:text-gray-300
+  Bootstrap: bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded
+    dark:bg-purple-900 dark:text-purple-300
+  REST API: bg-indigo-100 text-indigo-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded
+    dark:bg-indigo-900 dark:text-indigo-300
+  CSS: bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded
+    dark:bg-green-900 dark:text-green-300
+  CSS/SASS: bg-green-300 text-green-900 text-xs font-medium mr-2 px-2.5 py-0.5 rounded
+    dark:bg-green-900 dark:text-green-300
+  MaterialUI: bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded
+    dark:bg-blue-900 dark:text-blue-300
+skills:
+  - JavaScript
+  - React
+  - Node
+  - CSS/SASS/BEM
+  - SQL
+  - MongoDB
+  - Bootstrap
+  - Material UI
+  - UIkit
