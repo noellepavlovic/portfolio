@@ -1,5 +1,6 @@
 # Personal Resume and Portfolio
 
+Currently hosted on https://noelle.pavlovic.family
 
 ## Getting Started
 
